@@ -1,0 +1,57 @@
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5870622
+================================================
+================================================
+2. Instalação do WordPress localmente
+
+entro em:
+https://br.wordpress.org/
+procuro o link:
+https://br.wordpress.org/wordpress-4.7-pt_BR.zip
+wget https://br.wordpress.org/wordpress-4.7-pt_BR.zip
+
+sudo mkdir /var/www/wpcurso
+
+sudo mv wordpress-4.7-pt_BR.zip /var/www/wpcurso/
+
+cd /var/www/wpcurso/
+
+sudo unzip wordpress-4.7-pt_BR.zip 
+
+sudo rm wordpress-4.7-pt_BR.zip 
+
+cd wordpress/
+
+# copio todo o conteúdo da pasta wpcurso um nível acima
+sudo cp -R * ..
+
+# volto para a pasta /var/www/wpcurso
+cd ..
+
+sudo rm -R wordpress/
+
+# Fim da instalação do wordpress localmente
+================================================
+================================================
+# cria um banco de dados com o phpmyadmin
+# entra no http://localhost/phpmyadmin/
+user: root
+pass: 1
+# a senha pode ser vazia
+
+clica em Bancos de dados
+
+nome do banco:
+wp_curso
+
+clica no botão criar
+
+a partir da pasta /var/www/wpcurso
+sudo php -S 0.0.0.0:8080
+
+acessa pelo browser
+http://0.0.0.0:8080/
+
+vai abrir esta url
+http://0.0.0.0:8080/wp-admin/setup-config.php
+
+

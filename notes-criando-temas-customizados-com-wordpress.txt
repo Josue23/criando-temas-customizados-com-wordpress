@@ -54,4 +54,35 @@ http://0.0.0.0:8080/
 vai abrir esta url
 http://0.0.0.0:8080/wp-admin/setup-config.php
 
+# o tema vai ficar na pasta wp-content
+
+
+================================================
+================================================
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5871622?start=15
+
+Seção2, aula 4
+Anatomia de um tema wordpress
+
+wpcurso/wp-content/themes/aqui tem os temas instalados
+wpcurso/wp-content/themes/
+    index.php
+    style.css
+    page.php   // template que mostra as páginas
+    single.php // template que mostra postagens simples e anexos
+
+hierarquia de temas no WP
+index.php     // cerne do tema que chama outras partes especializadas como:
+    header.php que vai se repetir em todas as páginas
+    footer.php
+    sidebar.php
+
+    home.php      // página inicial
+    arqhive.php   // página de arquivos
+    page.php      // página estática
+    single.php
+    search.php
+    author.php
+    404.php
+
 

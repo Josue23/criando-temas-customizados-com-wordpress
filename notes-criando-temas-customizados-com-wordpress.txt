@@ -111,3 +111,11 @@ a partir de agora a image já está visível pela url:
 http://0.0.0.0:8080/wp-admin/themes.php
 
 
+================================================
+================================================
+6. Ativando o tema WordPress
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5836244
+
+
+================================================
+================================================

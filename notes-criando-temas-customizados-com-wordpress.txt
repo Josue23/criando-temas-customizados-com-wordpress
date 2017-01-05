@@ -86,3 +86,28 @@ index.php     // cerne do tema que chama outras partes especializadas como:
     404.php
 
 
+================================================
+================================================
+5. Criando o arquivo styles.css
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5836242
+
+sudo mkdir wp-content/themes/curso
+sudo touch wp-content/themes/curso/index.php
+sudo touch wp-content/themes/curso/style.css
+
+ls -1 wp-content/themes/curso/
+index.php
+style.css
+
+
+o screenshot.png deve ter a extensão png
+tamanho 1200 X 900
+
+/var/www/wpcurso/wp-content/themes/curso
+$ sudo cp Os-blocos-básicos-de-construção-do-tema/curso/screenshot.png .
+
+
+a partir de agora a image já está visível pela url:
+http://0.0.0.0:8080/wp-admin/themes.php
+
+

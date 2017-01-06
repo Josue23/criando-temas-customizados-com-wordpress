@@ -119,3 +119,20 @@ https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lectur
 
 ================================================
 ================================================
+7. Os blocos básicos de construção do tema - index.php
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5836250
+
+- cabeçalho
+- parte dinâmica de conteúdo que sempre se repete
+    - no início vai ser o index.php
+- rodapé
+
+
+função do WordPress <?php body_class(); ?> retorna as classes relacionadas 
+
+================================================
+================================================
+8. Os blocos básicos de construção do tema - divindo o index.php em partes
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5836252
+
+

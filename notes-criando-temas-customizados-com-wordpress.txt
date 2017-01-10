@@ -147,8 +147,6 @@ arquivo functions.php dentro da pasta do tema
 - a diferença é que o functions.php serve apenas ao tema que está ativo no
   momento
 - o functions.php pode ter a chamada dos estilos, das barras laterais, dos
-  nossos scripts, também serve para criar as funções para menu, configurar as
-miniaturas(imagens) do site, os formatos de posts diferentes que temos e também
-podemos criar e carregar funções específicas dentro do functions.php
+  nossos scripts, também serve para criar as funções para menu, configurar as miniaturas(imagens) do site, os formatos de posts diferentes que temos e também podemos criar e carregar funções específicas dentro do functions.php
 - quando o site WordPress é carregado, existem  hooks(ganchos, anzol) são
   momentos(estados) de execução do WordPress

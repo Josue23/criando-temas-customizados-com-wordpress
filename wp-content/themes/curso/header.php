@@ -7,12 +7,14 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <p>Este é um parágrafo</p>
+
+
 <header>
     <!-- barra vermelha superior -->
-    <div class="barra-topo">
-        <div class="redes-sociais">Redes Sociais</div>
-        <div class="pesquisa">Pesquisa</div>
+    <div class="barra-topo container">
+    <div class="row">
+        <div class="redes-sociais col-md-4">Redes Sociais</div>
+        <div class="pesquisa col-md-8">Pesquisa</div></div>
     </div>
 
     <div class="area-menu">

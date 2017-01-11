@@ -150,3 +150,14 @@ arquivo functions.php dentro da pasta do tema
   nossos scripts, também serve para criar as funções para menu, configurar as miniaturas(imagens) do site, os formatos de posts diferentes que temos e também podemos criar e carregar funções específicas dentro do functions.php
 - quando o site WordPress é carregado, existem  hooks(ganchos, anzol) são
   momentos(estados) de execução do WordPress
+
+
+================================================
+================================================
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5565476
+10. Introdução ao arquivo functions.php (Enfileirando scripts)
+
+crio o arquivo /var/www/wpcurso/wp-content/themes/curso/js/template.js
+
+para chamar a o arquivo template.js
+    no arquivo herder.php, usa o wp_enqueue_script

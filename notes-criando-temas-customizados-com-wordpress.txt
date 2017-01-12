@@ -161,3 +161,41 @@ crio o arquivo /var/www/wpcurso/wp-content/themes/curso/js/template.js
 
 para chamar a o arquivo template.js
     no arquivo herder.php, usa o wp_enqueue_script
+
+================================================
+================================================
+https://www.udemy.com/criando-temas-customizados-com-wordpress/learn/v4/t/lecture/5836282
+
+11. Adicionando menus - parte 1
+
+http://0.0.0.0:8080/wp-admin/
+menu Aparência, não tem nada aind
+
+registro o arquivo wp-content/themes/curso/functions.php e insiro os menus
+
+- antes de criar os menus, vamos criar algumas páginas estáticas no WP
+http://0.0.0.0:8080/wp-admin/
+- Páginas > Adicionar nova
+página Home
+página Blog
+página Sobre
+Esta é a página
+página Contato
+================================================
+Registrar os menus
+- Criar eles logicamente dentro do WP wp-content/themes/curso/functions.php com a função register_nav_menus();
+
+
+http://0.0.0.0:8080/wp-admin/nav-menus.php?menu=2
+Configurações do menu
+Marca a opção Adicionar novas páginas de nível superior automaticamente. 
+
+http://0.0.0.0:8080/wp-admin/post-new.php?post_type=page
+quando for criar uma página estática, não preciso escolher esta página pra
+fazer parte do menu
+ela já vai ser automaticamente adicionada ao nosso menu
+
+após a edição do menu na url:
+http://0.0.0.0:8080/wp-admin/nav-menus.php?menu=2
+adicionaremos (este menu que criamos) ao nosso tema
+

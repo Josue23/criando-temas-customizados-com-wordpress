@@ -1,5 +1,6 @@
 <?php
 
+// função para carregamento dos scripts
 function carrega_scripts() {
     // wp_enqueue_style carrega (enfileira) as folhas de estilo
     // 1º argumento: ('template')
@@ -35,3 +36,14 @@ function carrega_scripts() {
 //      verifico em http://0.0.0.0:8080/wp-admin/themes.php
 //      depois em http://0.0.0.0:8080/
 add_action('wp_enqueue_scripts', 'carrega_scripts');
+
+
+// função para menus
+register_nav_menus(
+    array(
+        // meu_menu_principal, identificador
+        // Menu Principal, nome amigável do menu
+        'meu_menu_principal' => 'Menu Principal',
+        // a opção Menus vai aparecer em Aparência http://0.0.0.0:8080/wp-admin/post.php?post=10&action=edit
+    )
+);
